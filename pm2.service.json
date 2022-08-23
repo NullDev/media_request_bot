@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "media_request_bot",
+            "cwd": "./",
+            "script": "src/bot.js",
+            "exec_mode": "fork",
+            "instances": 1,
+            "env": { "NODE_ENV": "production" },
+            "repo": "https://github.com/Shylily/media_request_bot.git",
+            "ref": "origin/master"
+        }
+    ]
+}
